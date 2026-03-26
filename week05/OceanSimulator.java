@@ -6,7 +6,7 @@ class MarineLife {
 
     public MarineLife(String name, String habitat) {
         this.name = name;
-        this.habitat = habitat;
+        this.habitat = habitat + "";
     }
 
     public String move() {
